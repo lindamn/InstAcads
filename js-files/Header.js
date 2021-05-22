@@ -11,20 +11,20 @@ class Header extends HTMLElement{
     render(){
         this.shadow.innerHTML = `
         <link rel="stylesheet" href="../css/Header.css">
-        <div>
-            <h1>
-                <header id="header">instAcads</header>
+            <header id="header">instAcads</header>
+
+            <header>
                 <div class="topnav">
-                    <a class="active" href="#home">Home</a>
-                    <a href="#classes">Classes</a>
-                    <a href="#Achievements">Achievements</a>
+                <a class="active" href="#home">HOME</a>
+                <a href="#classes">CLASSES</a>
+                <a href="#Achievements">ACHIEVEMENTS</a>
                     <div class="topnav-right">
-                        <a href="#profile">John Osias</a>
-                        <a href="#logout">Log Out</a>
+                        <a href="#profile">JOHN OSIAS</a>
+                        <a href="#logout">LOG OUT</a>
                     </div>
                 </div>
-            </h1>
-        </div>
+            </header>
+
         `;
     }
 }
