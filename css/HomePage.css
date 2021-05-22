@@ -1,6 +1,7 @@
 h2{
     font-family: 'Sora', sans-serif;
     font-size: 200%;
+    margin-left: 45%;
     margin-bottom: 5%;
 }
 #main-container{
@@ -17,7 +18,7 @@ h2{
 
 .progress-col{
     margin-left: 5%;
-    margin-top: 8%;
+    margin-top: 1.5%;
 }
 
 #kmae-pbar {
@@ -104,3 +105,8 @@ h2{
   background-color: #44C660;
   border-radius: 10vh;
 }
+
+#stories-container{
+    margin-left: 5%;
+}
+
