@@ -1,0 +1,126 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tasks</title>
+</head>
+<style>
+	p{
+		margin:0;
+		padding:0;
+	}
+	.task{
+		height: 60px;
+		background: #04A5FF;
+		border-radius:20px;
+		padding:15px;
+		font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+		margin-bottom:20px;
+	}
+	.task-details{
+		font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	}
+	.page-title{
+		font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+		font-size:25px;
+		padding-left:20px;
+	}
+	.sort{
+		width: 258px;
+		height: 25px;
+		font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+		background: #FFFFFF;
+		border: 0.5px solid rgba(0, 0, 0, 0.38);
+		box-sizing: border-box;
+		border-radius: 25px;
+	}
+	
+	.calendar-body{
+		background: #F25B5B;
+		border-radius: 20px;
+		float:right;
+		width:40%;
+		height:40%;
+		padding:20px;
+		margin:10px;
+		font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	}
+	.calendar-weeks{
+		background:#EBE2E2;
+		font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+		padding:10px;
+		margin-top:15px;
+	}
+	li{
+	float:left;
+	padding-left: 10%;
+	}
+</style>
+<body style="margin:0">
+    <custom-header></custom-header>
+	<script src="../js-files/Header.js"></script>
+    <div style="display: inline">
+    	<div style="width:45%;padding:20px;float:left">
+			<div style="padding-bottom:50px">
+				<div style="float:left;width:50%">
+					<p class="page-title">Tasks</p>
+				</div>
+				<div class="sort" style="float:right;width:25%;">
+					<p style="padding-left:5px" class="task-details">Sort by Date</p>
+				</div>
+			</div>
+
+			<div class="task">
+				<p style="font-size:25px">Make a Prototype</p>
+				<div style="display:inline-block; width:100%">
+					<div style="text-align:left;float:left">
+						CMSC 173
+					</div>
+					<div style="text-align:right">
+						MAY 31, 2021 11:59 PM
+					</div>
+				</div>
+			</div>
+
+			<div class="task" style="background:#F25B5B">
+				<p style="font-size:25px">Unit 1</p>
+				<div style="display:inline-block; width:100%">
+					<div style="text-align:left;float:left">
+						CMSC 142
+					</div>
+					<div style="text-align:right">
+						MAY 12, 2021 11:59 PM
+					</div>
+				</div>
+			</div>
+
+			<div class="task" style="background:#F25B5B">
+				<p style="font-size:25px">Fundamentals of Kemerut</p>
+				<div style="display:inline-block; width:100%">
+					<div style="text-align:left;float:left">
+						CMSC 128
+					</div>
+					<div style="text-align:right">
+						MAY 12, 2021 11:59 PM
+					</div>
+				</div>
+			</div>
+
+			<div class="task">
+				<p style="font-size:25px">Sprint 143</p>
+				<div style="display:inline-block; width:100%">
+					<div style="text-align:left;float:left">
+						CMSC 128
+					</div>
+					<div style="text-align:right">
+						MAY 11, 2021 11:59 PM
+					</div>
+				</div>
+			</div>
+		</div>
+		<custom-calendar></custom-calendar>
+		<script src="../js-files/Calendar.js"></script>
+    </div>
+    
+</body>
+</html>
