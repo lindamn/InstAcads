@@ -1,0 +1,64 @@
+#edit-col{
+    margin: -1% 5%;
+    max-width: 80vh;
+}
+
+.font1 {
+    font-family: 'Sora', sans-serif;        
+    margin: 3% 0% -5%;
+}
+
+.font2 {
+    font-family: 'Roboto', sans-serif;        
+    font-size: 2vh;
+    max-width: fit-content;
+    margin: 2% 0% 0% 0%;
+    white-space: nowrap;
+    color: #949494;
+}
+
+.font3 {
+    font-family: 'Sora', sans-serif;      
+    font-size: 3vh;
+    border-style: solid;
+    width: 20vh;
+    white-space: nowrap;
+    color: #FFFFFF;
+}
+
+button{
+    border-radius: 40px;
+}
+
+input{
+    border-radius: 15px;
+    border-style: solid;
+    border-color: #000000;
+    padding-left:15px;
+    padding-right:15px;
+    width: 80vh;
+    height: 5vh;
+    margin-bottom: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+select{
+    border-radius: 14px;
+    border-style: solid;
+    padding-left:15px;
+    padding-right:15px;    
+    width: 84vh;
+    height: 5vh;
+    margin-bottom: 3%;
+    font-family: 'Roboto', sans-serif;
+}
+
+textarea{
+    border-radius: 15px;
+    border-style: solid;
+    padding:15px;
+    width: 80vh;
+    height: 8vh;
+    margin-bottom: 3%;
+    font-family: 'Roboto', sans-serif;
+}

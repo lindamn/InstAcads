@@ -1,0 +1,50 @@
+#class{
+    font-family: 'Roboto', sans-serif;
+    font-size: 4vh;
+    margin: 2% 10%;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+#section{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2vh;
+    max-width: fit-content;
+    margin: 2% 10%;
+    white-space: nowrap;
+    color: #949494;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6%;
+    
+}
+
+#content-container{
+    align-items: left;
+    display: block;
+    max-width: 100vh;
+}
+
+#display-col{
+    margin: -1% 5%;
+    max-width: 80vh;
+}
+
+#content-container{
+    align-items: left;
+    display: block;
+    max-width: 100vh;
+}
+
+.font {
+    font-family: 'Sora', sans-serif;        
+}
+
+img{
+    width: 10vh;
+    height: 10vh;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <script src="../js-files/Header.js"></script>
+    <script src="../js-files/OfflineClassmate.js"></script>
+    <script src="../js-files/Profile.js"></script>
+    <link rel="stylesheet" href="../css/Profile.css" />
+    <link rel="stylesheet" href="../css/ProfileEdit.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
+    <custom-header></custom-header>
+    <br/>
+    <div id="page-container">
+        <div id="account-col">
+            <img src="../imgs/defaultpic.png" class="display-pic">
+            <img src="../imgs/camera.png" class="cam">
+            <div id="options-col">
+                <a href="ProfileEdit.html"><img border="0" src="../imgs/profile.png" class="button"></a>
+                <a href="ProfileFriends.html"><img src="../imgs/friends.png" class="button"></a>
+                <a href="ProfileClasses.html"><img src="../imgs/classes.png" class="button"></a>
+            </div>  
+        </div>
+        <div id="edit-col">
+        <h1 class="font1">PROFILE</h1>
+        <h2 class="font2">
+            <form>                        
+                <label><br/>Name<br/><input type="text" name="customername"></label> 
+                <label><br/>University<br/><input type="text" name="mobnumber"></label> 
+                <label><br/>Degree Program<br/><input type="email" name="emailadd"></label>
+                <label><br/>Year<br/>
+                    <select name="course">                 
+                        <option value="frsh">Freshman</option>
+                        <option value="sphmr">Sophomore</option>
+                        <option value="jnr">Junior</option>
+                        <option value="snr">Senior</option>
+                    </select>
+                </label>
+                <label><br/>Birthday<br/><input type="date"></label>
+                <label><br/>Bio<br/>
+                <textarea rows="10" cols="50"></textarea></label>
+            </form>
+        </h2>
+        <button type="cancel" class="font3" style="background:#F25B5B;border-color:#F25B5B">CANCEL</button>
+        <button type="submit" class="font3" style="background:#04A5FF;border-color:#04A5FF">SAVE</button>  
+        </div>
+    </div>
+</body>
+</html>

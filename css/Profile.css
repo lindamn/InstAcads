@@ -1,0 +1,92 @@
+#page-container{
+    display: flex;
+}
+
+#account-col{
+    display: grid;
+    width: 500px;
+    height: 600px;
+    background-color: #EBE1E1;
+    border-radius: 2vh;
+    margin-left: 3%;
+}
+
+#options-col{
+    margin-top: -37%;
+    margin-left: 7%;
+    display: grid;
+    max-height: 35vh;
+}
+
+#display-col{
+    display: grid;
+    width: 800px;
+    height: 575px;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6%;    
+}
+
+#content-container{
+    align-items: left;
+    display: block;
+}
+
+#info1{
+    font-family: 'Sora', sans-serif;
+    font-size: 7vh;
+    margin: 2% 10%;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+#info2{
+    font-family: 'Sora', sans-serif;
+    font-size: 3vh;
+    margin: 0% 10%;
+    white-space: wrap;
+    font-weight: 500;
+}
+
+#info3{
+    font-family: 'Sora', sans-serif;
+    font-size: 3vh;
+    margin: 0% 10%;
+    white-space: nowrap;
+    color: #949494;
+}
+
+a{
+    display:block;    
+    position: relative;
+    width: 40vh;
+    height: 6vh;
+    margin: 12% 10% -20% 12%;  
+}
+
+img{
+    width: 10vh;
+    height: 10vh;
+}
+
+.display-pic {
+    width: 40vh;
+    height: 40vh;  
+    margin: 3% 10% -20% 17%;  
+}
+
+.cam {
+    width: 12vh;
+    height: 12vh;  
+    margin: -22% 10% -20% 62%;  
+}
+
+.button {
+    position: absolute;
+    width: 40vh;
+    height: 6vh;  
+}
