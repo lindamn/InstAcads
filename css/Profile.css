@@ -1,0 +1,83 @@
+#page-container{
+    display: flex;
+}
+
+#account-col{
+    display: grid;
+    width: 1000px;
+    height: 600px;
+    background-color: #EBE1E1;
+    border-radius: 2vh;
+    margin-left: 3%;
+}
+
+#options-col{
+    margin-top: -3%;
+    margin-left: 5%;
+    display: grid;
+}
+
+#display-col{
+    display: grid;
+    width: 2000px;
+    height: 575px;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6%;    
+}
+
+#content-container{
+    align-items: left;
+    display: block;
+}
+
+#info1{
+    font-family: 'Sora', sans-serif;
+    font-size: 7vh;
+    margin: 2% 10%;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+#info2{
+    font-family: 'Sora', sans-serif;
+    font-size: 3vh;
+    margin: 0% 10%;
+    white-space: wrap;
+    font-weight: 500;
+}
+
+#info3{
+    font-family: 'Sora', sans-serif;
+    font-size: 3vh;
+    margin: 0% 10%;
+    white-space: nowrap;
+    color: #949494;
+}
+
+img {
+    width: 10vh;
+    height: 10vh;
+}
+
+.display-pic {
+  width: 40vh;
+  height: 40vh;  
+  margin: 10% 10% -20% 13%;  
+}
+
+.cam {
+  width: 12vh;
+  height: 12vh;  
+  margin: -12% 10% -20% 58%;  
+}
+
+.button {
+  width: 40vh;
+  height: 6vh;  
+  margin: 0% 10% -20% 13%;  
+}
