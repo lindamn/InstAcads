@@ -19,13 +19,29 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-bottom: 6%;   
+    margin-bottom: 6%;
+    
 }
 
 #content-container{
     align-items: left;
     display: block;
     max-width: 100vh;
+}
+
+#display-col{
+    margin: -1% 5%;
+    max-width: 80vh;
+}
+
+#content-container{
+    align-items: left;
+    display: block;
+    max-width: 100vh;
+}
+
+.font {
+    font-family: 'Sora', sans-serif;        
 }
 
 img{
