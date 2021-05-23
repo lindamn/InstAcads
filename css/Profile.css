@@ -12,9 +12,10 @@
 }
 
 #options-col{
-    margin-top: -3%;
-    margin-left: 5%;
+    margin-top: -37%;
+    margin-left: 7%;
     display: grid;
+    max-height: 35vh;
 }
 
 #display-col{
@@ -59,25 +60,33 @@
     color: #949494;
 }
 
-img {
+a{
+    display:block;    
+    position: relative;
+    width: 40vh;
+    height: 6vh;
+    margin: 12% 10% -20% 12%;  
+}
+
+img{
     width: 10vh;
     height: 10vh;
 }
 
 .display-pic {
-  width: 40vh;
-  height: 40vh;  
-  margin: 10% 10% -20% 13%;  
+    width: 40vh;
+    height: 40vh;  
+    margin: 3% 10% -20% 17%;  
 }
 
 .cam {
-  width: 12vh;
-  height: 12vh;  
-  margin: -12% 10% -20% 58%;  
+    width: 12vh;
+    height: 12vh;  
+    margin: -22% 10% -20% 62%;  
 }
 
 .button {
-  width: 40vh;
-  height: 6vh;  
-  margin: 0% 10% -20% 13%;  
+    position: absolute;
+    width: 40vh;
+    height: 6vh;  
 }
