@@ -1,0 +1,14 @@
+#display-col{
+    margin: -1% 5%;
+    max-width: 80vh;
+}
+
+#content-container{
+    align-items: left;
+    display: block;
+    max-width: 100vh;
+}
+
+.font {
+    font-family: 'Sora', sans-serif;		
+}

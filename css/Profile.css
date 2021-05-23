@@ -4,7 +4,7 @@
 
 #account-col{
     display: grid;
-    width: 1000px;
+    width: 500px;
     height: 600px;
     background-color: #EBE1E1;
     border-radius: 2vh;
@@ -19,7 +19,7 @@
 
 #display-col{
     display: grid;
-    width: 2000px;
+    width: 800px;
     height: 575px;
 }
 
