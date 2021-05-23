@@ -1,0 +1,111 @@
+h2{
+    font-family: 'Sora', sans-serif;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+h3{
+    font-family: 'Sora', sans-serif;
+    font-size: 150%;
+    margin-left: 50%;
+}
+
+#page-container{
+    display: flex;
+}
+
+#achievement-col{
+    margin-top: -3%;
+    margin-left: 5%;
+    display: grid;
+}
+
+.top5-container{
+    margin-top: -5%;
+    margin-left: 10%;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 6%;
+    
+}
+
+#content-container{
+    align-items: left;
+    display: block;
+    max-width: 100vh;
+}
+
+img{
+    width: 11vh;
+    height: 11vh;
+}
+
+#date{
+    font-family: 'Sora', sans-serif;
+    font-size: 2vh;
+    margin: 0% 5%;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #949494;
+}
+
+#title{
+    font-family: 'Sora', sans-serif;
+    font-size: 4vh;
+    margin: 0% 5%;
+    white-space: nowrap;
+    font-weight: 500;
+}
+
+#description{
+    font-family: 'Sora', sans-serif;
+    font-size: 2vh;
+    max-width: fit-content;
+    margin: 0% 5%;
+    white-space: nowrap;
+}
+
+.symbol1 {
+  display: block;
+  position: relative;
+  margin-left: 70%;
+  width: 300px;
+  height: 300px;
+}
+
+.symbol2 {
+  display: block;
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 3%;
+  width: 20vh;
+  height: 20vh;
+}
+
+.symbol3 {
+  display: block;
+  position: absolute;
+  margin-left: 12%;
+  width: 150px;
+  height: 150px;
+}
+.symbol4 {
+  display: block;
+  position: absolute;
+  margin-left: 25%;
+  width: 150px;
+  height: 150px;
+}
+.symbol5 {
+  display: block;
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 34%;
+  width: 20vh;
+  height: 20vh;
+}
