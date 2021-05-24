@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+#main-container{
+    background-color: #F0F0F0;
+    padding-top: 2%;
+    padding-bottom: 2%; 
+    display: flex;
+    border-radius: 10vh;
+    margin: 2% 2%;
+}
+
+#content-container{
+    margin-left: 5%;
+    margin-right: 45%;
+}
+
+p{
+    font-family: 'Sora', sans-serif;
+    font-size: 6vh;
+    white-space: nowrap;
+    margin: 0%;
+}
+
+h2{
+    margin: 0%;
+    font-size: 4vh;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+    white-space: nowrap;
+}
+
+img{
+    width: auto;
+    height: 15vh;
+}
