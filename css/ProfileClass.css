@@ -29,10 +29,6 @@
     max-width: 100vh;
 }
 
-#display-col{
-    max-height: 72vh;
-}
-
 #content-container{
     align-items: left;
     display: block;

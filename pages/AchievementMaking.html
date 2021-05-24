@@ -12,21 +12,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap" rel="stylesheet">
     <custom-header></custom-header>
     <br/>
-    <h2>Achievements</h2>
+    <h2>MAKE YOUR OWN ACHIEVEMENT!</h2>
     <div id="page-container">
         <div id="achievement-col">
-            <achievement-item symbol="../imgs/symbol1.png" date="MAY 12, 2021" title="Focused af" description="Reward for not playing Genshin Impact today"></achievement-item>
-            <achievement-item symbol="../imgs/symbol3.png" date="MAY 10, 2021" title="Calm and collected" description="Was able to survive an oral exam for COMM 10 today"></achievement-item>
-            <achievement-item symbol="../imgs/symbol2.png" date="FEBRUARY 14, 2021" title="Start of something new" description="Had the courage to talk to my crush <3"></achievement-item>
-        </div>
-
-		<div class="top5-container">
-            <img src="../imgs/symbol1.png" class="symbol1">
-            <img src="../imgs/symbol2.png" class="symbol2">
-            <img src="../imgs/symbol3.png" class="symbol3">
-            <img src="../imgs/symbol4.png" class="symbol4">
-            <img src="../imgs/symbol5.png" class="symbol5">
+        <h2 style="margin:-7% 0%">
+            <form>                        
+                <label><br/>Title<br/><input type="text" name="title"></label> 
+                <label><br/>Summary<br/><input type="text" name="summary"></label>
+                <label><br/>Description<br/>
+                <textarea rows="20" cols="50" name="description"></textarea></label>
+            </form>
+        </h2>
+        </div>  
+		<div class="top5-container symbol-col">
+            <img src="../imgs/symbol1.png" class="symbol1" style="margin: 13% 13%">
+            <img src="../imgs/camera.png" class="cam">
+            <button type="sumit" class="font" style="background:#04A5FF;border-color:#04A5FF">SAVE</button>
+            <button type="cancel" class="font" style="background:#F25B5B;border-color:#F25B5B;margin-top:-9%;margin-left:52%">CANCEL</button>
         </div>      
+    
     </div>
 </body>
 </html>

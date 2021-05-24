@@ -20,8 +20,8 @@ class Achievement extends HTMLElement{
         return this.getAttribute('title');
     }
 
-    get description(){
-        return this.getAttribute('description')
+    get summary(){
+        return this.getAttribute('summary')
     }
 
     render(){
@@ -32,7 +32,7 @@ class Achievement extends HTMLElement{
                 <div id="content-container">
                     <p id="date">${this.date}</p>
                     <p id="title">${this.title}</p>
-                    <p id="description">${this.description}</p>
+                    <p id="summary">${this.summary}</p>
                 </div>
             </div>
         `;
