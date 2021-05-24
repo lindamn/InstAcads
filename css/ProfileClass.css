@@ -30,8 +30,7 @@
 }
 
 #display-col{
-    margin: -1% 5%;
-    max-width: 80vh;
+    max-height: 72vh;
 }
 
 #content-container{
@@ -41,6 +40,8 @@
 }
 
 .font {
+    margin: 1% 6%;
+    font-size: 6vh;
     font-family: 'Sora', sans-serif;        
 }
 

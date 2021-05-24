@@ -4,11 +4,15 @@
 
 #account-col{
     display: grid;
-    width: 500px;
-    height: 600px;
+    width: 65vh;
+    height: 80vh;
+    min-width: 65vh;
+    max-width: 65vh;
+    min-height: 80vh;
     background-color: #EBE1E1;
     border-radius: 2vh;
-    margin-left: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 #options-col{
@@ -20,8 +24,11 @@
 
 #display-col{
     display: grid;
-    width: 800px;
-    height: 575px;
+    width: 130vh;
+    height: 70vh;
+    max-width: 130vh;
+    max-height: 70vh;
+    overflow: auto;
 }
 
 #main-container{
@@ -38,7 +45,7 @@
 
 #info1{
     font-family: 'Sora', sans-serif;
-    font-size: 7vh;
+    font-size: 6vh;
     margin: 2% 10%;
     white-space: nowrap;
     font-weight: 500;

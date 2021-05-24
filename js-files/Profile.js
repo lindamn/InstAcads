@@ -59,14 +59,14 @@ class Profile extends HTMLElement{
                 <div id="content-container">
                     <p id="info1">name.value</p>
                     <p id="info2">bio.value</p>
-                    <br/><br/>
+                    <br/>
                     <p id="info3">${this.univ}</p>
                     <p id="info3">${this.degree}</p>
                     <p id="info3">${this.year} Level</p>
-                    <br/><br/>
+                    <br/>
                     <p id="info3">Joined ${this.join}</p>
                     <p id="info3">Born ${this.bday}</p>
-                    <br/><br/>
+                    <br/>
                     <p id="info3">Friends ${this.friend}</p>
                     <p id="info3">Classes ${this.class}</p>
                 </div>
