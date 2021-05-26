@@ -5,16 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   </head>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
   <style>
-    #blue-bg {
+    
+    #main-container{
+      display: flex;
+    } 
+    #left-container{  
+      margin-top: 15%;  
+      width: 50%;
+      align-items: center;
+
+      
+    }
+    #instacads{
+      transition: transform .3s ease;
+    }
+    #award{
+      width: 10vh;
+      height: auto;
+      margin-left: 45%;
+    }
+    #grad{
+      position: absolute;
+      bottom: 0;
+      margin-left: 8%;
+      width: 70vh;
+      height: auto;
+    }
+
+    #instacads:hover{
+      transform: scale(1.1);
+
+    }
+
+    #right-container {
       background-color: #49c2e8;
       width: 50%;
       height: 100vh;
-      margin-left: auto;
-      margin-right: auto;
+    }
+    h1{
+
+      
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      font-weight: lighter;
     }
     #welcome-text {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      font-family: "Sora", sans-serif;
       font-size: 8vh;
       text-align: center;
       color: #ffffff;
@@ -32,34 +70,92 @@
       text-align: center;
     }
     #input {
-      border-radius: 10px;
-      border-style: solid;
-      border-color: #000000;
-      padding-left: 15px;
-      padding-right: 15px;
-      width: 30vh;
-      height: 3vh;
+      border-radius: 1vh;
+      border: 0.4vh solid   #dedede;
+      outline: none;
+      padding-left: 1%;
+      width: 50vh;
+      height: 7vh;
+
     }
-    img {
-      width: 60vh;
-      height: 60vh;
+    #profile{
+      width: 15vh;
+      height: 15vh;
+    }
+    #logo{
+      width: 70vh;
+      height: auto;
+      margin-left: 17%;
     }
     p {
       font-size: 3vh;
       height: 2vh;
+      color: white;
+    }
+    #quote{
+      margin-top: -3%;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      font-size: 5vh;
+      color:black;
+    }
+
+    #main-fillup{
+      margin-top: 10%;
+    }
+
+    #login{
+      width: 25vh;
+      height: 6vh;
+      background-color: white;
+      border: 1vh;
+      border-radius: 1vh;
+      font-family: "Sora", sans-serif;
+    }
+
+    #login:hover{
+      cursor: pointer;
+      background-color:  #f5f4f4 ;
     }
   </style>
+
+  <script>
+    function showGradPeople(){
+
+    }
+
+  </script>
   <body style="margin: 0">
-    <div id="blue-bg">
-      <div id="welcome-text">Welcome to InstAcads!</div>
-      <div id="profile-pic">
-        <img src="defaultpic.png" />
+
+    <div id="main-container">
+      <div id="left-container">
+        <div id="instacads">
+          <img src="logo.png" id="logo">
+          <p id="quote">instant academic motivation.</p>
+        </div >
+            <img src="grad.png" id="grad" />
       </div>
-      <br/>
-      <div id="login-details">
-        <input type="text" id="input"/>
-        <p>Switch Account</p>
-        <p>Sign up here</p>
+      <div id="right-container">
+        <div id="main-fillup">
+          <img src="award-silver.png" id="award">
+          <div id="welcome-text">Welcome</div>
+          <br />
+          <div id="login-details">
+            <input type="text" placeholder="Enter email" id="input" />
+            <br />
+            <br />
+            <input type="text" placeholder="Enter password" id="input" />
+            <br />
+            <br />
+            <a href="HomePage.html"><button id="login">Log In</button></a>
+            
+            <br />
+            <br/>
+            <a href="">Sign up here</href>
+          </div>
+
+        </div>
+       
       </div>
     </div>
   </body>
