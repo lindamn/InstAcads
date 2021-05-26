@@ -15,12 +15,12 @@ class Header extends HTMLElement{
 
             <header>
                 <div class="topnav">
-                <a class="active" href="#home">HOME</a>
-                <a href="#classes">CLASSES</a>
-                <a href="#Achievements">ACHIEVEMENTS</a>
+                <a class="active" href="HomePage.html">HOME</a>
+                <a href="MyClasses.html">CLASSES</a>
+                <a href="Achievements.html">ACHIEVEMENTS</a>
                     <div class="topnav-right">
-                        <a href="#profile">JOHN OSIAS</a>
-                        <a href="#logout">LOG OUT</a>
+                        <a href="Profile.html">JOHN OSIAS</a>
+                        <a href="LoginPage.html">LOG OUT</a>
                     </div>
                 </div>
             </header>
