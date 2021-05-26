@@ -17,6 +17,7 @@ class Header extends HTMLElement{
                 <div class="topnav">
                 <a class="active" href="HomePage.html">HOME</a>
                 <a href="MyClasses.html">CLASSES</a>
+                <a href="Tasks.html">TASKS</a>
                 <a href="Achievements.html">ACHIEVEMENTS</a>
                     <div class="topnav-right">
                         <a href="Profile.html">JOHN OSIAS</a>
