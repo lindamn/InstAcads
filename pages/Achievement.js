@@ -26,7 +26,7 @@ class Achievement extends HTMLElement{
 
     render(){
         this.shadow.innerHTML = `
-            <link rel="stylesheet" href="../css/Achievement.css">
+            <link rel="stylesheet" href="Achievement.css">
             <div id="main-container">
                 <img src=${this.symbol}>
                 <div id="content-container">

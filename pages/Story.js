@@ -26,7 +26,7 @@ class Story extends HTMLElement{
         this.shadow.innerHTML = `
 
             
-            <link rel="stylesheet" href="../css/Story.css">
+            <link rel="stylesheet" href="Story.css">
             <div id="main-container">
                 <div id="content-container">
                     <p id="status">${this.status}</p>

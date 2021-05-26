@@ -24,7 +24,7 @@ class ClassPanel extends HTMLElement{
 
     render(){
         this.shadow.innerHTML = `
-            <link rel="stylesheet" href="../css/ClassPanel.css" />
+            <link rel="stylesheet" href="ClassPanel.css" />
             <div id="main-container">
                 <div id="content-container">
                     <p>${this.courseName}</p>

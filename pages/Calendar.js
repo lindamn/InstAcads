@@ -8,7 +8,7 @@ class Calendar extends HTMLElement {
   }
   render() {
     this.shadow.innerHTML = `
-    <link rel="stylesheet" href="../css/Calendar.css">
+    <link rel="stylesheet" href="Calendar.css">
 <div class="jzdbox1 jzdbasf jzdcal">
 
 <div class="jzdcalt">June 2017</div>

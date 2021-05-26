@@ -10,7 +10,7 @@ class Header extends HTMLElement{
 
     render(){
         this.shadow.innerHTML = `
-        <link rel="stylesheet" href="../css/Header.css">
+        <link rel="stylesheet" href="Header.css">
             <header id="header">instAcads</header>
 
             <header>

@@ -18,7 +18,7 @@ class ProfileClass extends HTMLElement{
 
     render(){
         this.shadow.innerHTML = `
-            <link rel="stylesheet" href="../css/ProfileClass.css">
+            <link rel="stylesheet" href="ProfileClass.css">
             <div id="main-container">
                 <img src="../imgs/book.png"></img>
                 <div id="content-container">

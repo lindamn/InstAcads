@@ -20,7 +20,7 @@ class OfflineClassmate extends HTMLElement{
 
     render(){
         this.shadow.innerHTML = `
-            <link rel="stylesheet" href="../css/Classmate.css">
+            <link rel="stylesheet" href="Classmate.css">
             <div id="main-container">
                 <img src="../imgs/defaultpic.png" alt="profile picture"></img>
                 <div id="content-container">
