@@ -11,7 +11,7 @@ class Header extends HTMLElement{
     render(){
         this.shadow.innerHTML = `
         <link rel="stylesheet" href="Header.css">
-            <header id="header">instAcads</header>
+            <header id="header"><img src="logowhite.png" width="10%"/></header>
 
             <header>
                 <div class="topnav">
