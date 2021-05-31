@@ -20,10 +20,10 @@ body {
   padding:0 10px 10px 10px; 
   box-sizing:border-box!important; 
   background:#749d9e; 
-  background: -webkit-linear-gradient(#595c5b, #04A5FF)!important; 
-  background: -o-linear-gradient(#595c5b, #04A5FF)!important; 
-  background: -moz-linear-gradient(#595c5b, #04A5FF)!important; 
-  background: linear-gradient(#595c5b, #04A5FF)!important;
+  background: -webkit-linear-gradient(#04A5FF, #0d7ebd)!important; 
+  background: -o-linear-gradient(#04A5FF, #0d7ebd)!important; 
+  background: -moz-linear-gradient(#04A5FF, #0d7ebd)!important; 
+  background: linear-gradient(#04A5FF, #0d7ebd)!important;
 }
 
 .jzdcalt {
