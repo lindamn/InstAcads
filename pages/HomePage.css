@@ -2,10 +2,11 @@ h2{
     font-family: 'Sora', sans-serif;
     font-size: 200%;
     margin-left: 45%;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 }
 #main-container{
     display: flex;
+    
 }
 #classmates-col{
     margin-left: 10%;
@@ -106,7 +107,50 @@ h2{
   border-radius: 10vh;
 }
 
+#jo-pbar {
+  position: relative;
+  width: 50vh;
+  height: 5vh;
+  background-color: #EBE1E1;
+  border-radius: 10vh;
+  margin-bottom: 15%;
+}
+
+#jo-pbar-status{
+  position: absolute;
+  height: 100%;
+  width: 40vh;
+  background-color: #44C660;
+  border-radius: 10vh;
+}
+
+
+#user-pbar {
+  position: relative;
+  width: 50vh;
+  height: 5vh;
+  background-color: #EBE1E1;
+  border-radius: 10vh;
+  margin-bottom: 15%;
+  margin-left: 10%;
+  margin-top: 1.5%;
+}
+
+#user-pbar-status{
+  position: absolute;
+  height: 100%;
+  width: 40vh;
+  background-color: #44C660;
+  border-radius: 10vh;
+}
+
 #stories-container{
     margin-left: 5%;
 }
 
+#test{
+  margin-top: 4%;
+  margin-left: 30%;
+  margin-bottom: -10%;
+  display: flex;
+}
