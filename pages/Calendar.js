@@ -64,7 +64,6 @@ class Calendar extends HTMLElement {
 <span class="jzdb"><!--BLANK--></span>
 <span class="jzdb"><!--BLANK--></span>
 <span class="jzdb"><!--BLANK--></span>
-<span class="jzdb"><!--BLANK--></span>
 </div>
         `;
   }
