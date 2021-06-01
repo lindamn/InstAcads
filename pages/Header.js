@@ -22,7 +22,7 @@ class Header extends HTMLElement{
                     <div class="topnav-right">
 
                          <! -- EDIT NAME -->
-                        <a href="Profile.html">RALF BAUTISTA</a>
+                        <a href="Profile.html">RAFA MAGNO</a>
                         <a href="LoginPage.html">LOG OUT</a>
                     </div>
                 </div>
