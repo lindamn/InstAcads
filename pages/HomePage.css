@@ -51,7 +51,7 @@ h2{
 #lm-pbar-status{
   position: absolute;
   height: 100%;
-  width: 40vh; /* edit this , DO NOT EXCEED 50 */
+  width: 21vh; /* edit this , DO NOT EXCEED 50 */
   background-color: #44C660;
   border-radius: 10vh;
 }
@@ -68,7 +68,7 @@ h2{
 #v-pbar-status{
   position: absolute;
   height: 100%;
-  width: 45vh; /* edit this , DO NOT EXCEED 50 */
+  width: 25vh; /* edit this , DO NOT EXCEED 50 */
   background-color: #44C660;
   border-radius: 10vh;
 }
@@ -85,7 +85,7 @@ h2{
 #ka-pbar-status{
   position: absolute;
   height: 100%;
-  width: 40vh; /* edit this , DO NOT EXCEED 50 */
+  width: 34vh; /* edit this , DO NOT EXCEED 50 */
   background-color: #44C660;
   border-radius: 10vh;
 }
@@ -102,7 +102,7 @@ h2{
 #deyb-pbar-status{
   position: absolute;
   height: 100%;
-  width: 45vh; /* edit this , DO NOT EXCEED 50 */
+  width: 39vh; /* edit this , DO NOT EXCEED 50 */
   background-color: #44C660;
   border-radius: 10vh;
 }
@@ -119,7 +119,7 @@ h2{
 #jo-pbar-status{
   position: absolute;
   height: 100%;
-  width: 45vh; /* edit this , DO NOT EXCEED 50 */
+  width: 32vh; /* edit this , DO NOT EXCEED 50 */
   background-color: #44C660;
   border-radius: 10vh;
 }
@@ -139,7 +139,7 @@ h2{
 #user-pbar-status{
   position: absolute;
   height: 100%;
-  width: 10vh; /* edit this , DO NOT EXCEED 50 */
+  width: 30vh; /* edit this , DO NOT EXCEED 50 */
   background-color: #44C660;
   border-radius: 10vh;
 }
