@@ -16,13 +16,16 @@ class OfflineClassmate extends HTMLElement{
         return this.getAttribute('degree')
     }
 
+    get picture(){
+        return this.getAttribute('picture')
+    }
   
 
     render(){
         this.shadow.innerHTML = `
             <link rel="stylesheet" href="Classmate.css">
             <div id="main-container">
-                <img src="defaultpic.png" alt="profile picture"></img>
+                <img src=${this.picture} alt="profile picture"></img>
                 <div id="content-container">
                     <p id="name">${this.name}</p>
                     <p id="degree">${this.degree}</p>
