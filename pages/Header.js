@@ -20,6 +20,8 @@ class Header extends HTMLElement{
                 <a href="Tasks.html">TASKS</a>
                 <a href="Achievements.html">ACHIEVEMENTS</a>
                     <div class="topnav-right">
+
+                         <! -- EDIT NAME -->
                         <a href="Profile.html">JOHN OSIAS</a>
                         <a href="LoginPage.html">LOG OUT</a>
                     </div>
