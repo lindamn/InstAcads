@@ -139,7 +139,7 @@ h2{
 #user-pbar-status{
   position: absolute;
   height: 100%;
-  width: 12vh; /* edit this , DO NOT EXCEED 50 */
+  width: 10vh; /* edit this , DO NOT EXCEED 50 */
   background-color: #44C660;
   border-radius: 10vh;
 }
